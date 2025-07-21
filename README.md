@@ -14,9 +14,9 @@ Website sederhana yang memungkinkan pengguna untuk meng-embed preview video YouT
 
 | Bagian     | Teknologi                             |
 |------------|----------------------------------------|
-| Frontend   | HTML, CSS, Bootstrap 5, JavaScript     |
+| Frontend   | HTML, CSS, Bootstrap 5, JavaScript , Axiom    |
 | Ikon       | Font Awesome                          |
-| Hosting    | Vercel                                 |
+
 
 ## 📦 Struktur Project
 ├── public/ │ ├── css/ │ │ └── style.css │ ├── js/ │ │ └── script.js ├── index.html
