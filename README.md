@@ -8,7 +8,6 @@ Website sederhana yang memungkinkan pengguna untuk meng-embed preview video YouT
 - Validasi input dan tampilan alert yang UX-friendly
 - Tombol Download MP3 / MP4 muncul secara dinamis
 - Preloader untuk pengalaman pengguna yang halus
-- Responsive UI menggunakan Bootstrap 5
 
 ## 🧰 Tech Stack
 
