@@ -1,46 +1,40 @@
-📺 Youtube Downloader – Frontend
-Website sederhana untuk menampilkan preview video YouTube dan menyediakan opsi download MP3/MP4 secara praktis dan cepat. Dibangun dengan HTML, CSS, Bootstrap, dan JavaScript vanilla, serta siap diintegrasikan dengan backend Node.js..
+# 📺 Youtube Downloader – Frontend
+
+Website sederhana yang memungkinkan pengguna untuk meng-embed preview video YouTube dan mengunduhnya dalam format MP3 atau MP4. Dibangun dengan HTML, CSS, Bootstrap 5, dan JavaScript Vanilla, serta dirancang untuk terintegrasi dengan backend Node.js.
+
+## 🚀 Fitur
+
+- Embed otomatis video YouTube berdasarkan link
+- Validasi input dan tampilan alert yang UX-friendly
+- Tombol Download MP3 / MP4 muncul secara dinamis
+- Preloader untuk pengalaman pengguna yang halus
+- Responsive UI menggunakan Bootstrap 5
+
+## 🧰 Tech Stack
+
+| Bagian     | Teknologi                             |
+|------------|----------------------------------------|
+| Frontend   | HTML, CSS, Bootstrap 5, JavaScript     |
+| Ikon       | Font Awesome                          |
+| Hosting    | Vercel                                 |
+
+## 📦 Struktur Project
+├── public/ │ ├── css/ │ │ └── style.css │ ├── js/ │ │ └── script.js ├── index.html
 
 
-🖥️ Fitur
-Embed otomatis video dari link YouTube
+## ⚙️ Cara Penggunaan
 
-Validasi input yang UX-friendly (alert dan feedback visual)
+1. Paste link video YouTube ke input field.
+2. Klik tombol **Search**, video akan otomatis di-embed.
+3. Tombol **Download MP3 / MP4** akan muncul.
+4. Klik sesuai format yang kamu butuhkan.
 
-Tombol download MP3 dan MP4 yang muncul dinamis sesuai link
+> Pastikan backend aktif dan rute download tersedia.
 
-Preloader untuk pengalaman pengguna yang lebih smooth
+## 🔗 Integrasi dengan Backend
 
-Responsive UI dengan Bootstrap 5
+Frontend ini dirancang untuk terhubung dengan backend Node.js yang menangani:
+GET /download/mp3?url=<video_url> 
+GET /download/highestmp4?url=<video_url>
 
-🛠️ Tech Stack
-Bagian	Teknologi
-Frontend	HTML, CSS, Bootstrap 5, JavaScript Vanilla
-Ikon	Font Awesome
-Hosting	Vercel
-📦 Struktur Project
-├── public/
-│   ├── css/
-│   │   └── style.css
-│   ├── js/
-│   │   └── script.js
-├── index.html
-⚙️ Cara Penggunaan
-Paste link video YouTube ke input field.
-
-Klik tombol Search, video akan otomatis di-embed.
-
-Tombol Download MP3 / MP4 akan muncul.
-
-Klik sesuai format yang kamu butuhkan.
-
-Pastikan backend sudah aktif dan route download terhubung.
-
-🔌 Integrasi dengan Backend
-Frontend ini dirancang untuk terhubung dengan backend YouTube Downloader Node.js yang menangani:
-
-GET /download/mp3?url=...
-
-GET /download/mp4?url=...
-
-Pastikan backend menggunakan ytdl-core dan ffmpeg untuk konversi format.
+💬 Feedback dan ide sangat terbuka terima kasih sudah berkunjung
